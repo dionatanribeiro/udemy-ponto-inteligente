@@ -32,7 +32,7 @@ import br.com.pontointeligente.api.utils.PasswordUtils;
 @CrossOrigin("*")
 public class CadastroPFController {
 
-	private static final Logger log = LoggerFactory.getLogger(CadastroPJController.class);
+	private static final Logger log = LoggerFactory.getLogger(CadastroPFController.class);
 
 	@Autowired
 	private EmpresaService empresaService;

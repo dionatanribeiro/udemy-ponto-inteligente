@@ -30,7 +30,7 @@ import br.com.pontointeligente.api.utils.PasswordUtils;
 @CrossOrigin("*")
 public class FuncionarioController {
 
-	private static final Logger log = LoggerFactory.getLogger(CadastroPJController.class);
+	private static final Logger log = LoggerFactory.getLogger(FuncionarioController.class);
 	
 	@Autowired
 	private FuncionarioService funcionarioService;

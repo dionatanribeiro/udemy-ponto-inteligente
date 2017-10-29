@@ -22,7 +22,7 @@ import br.com.pontointeligente.api.services.EmpresaService;
 @CrossOrigin("*")
 public class EmpresaController {
 
-	private static final Logger log = LoggerFactory.getLogger(CadastroPJController.class);
+	private static final Logger log = LoggerFactory.getLogger(EmpresaController.class);
 	
 	@Autowired
 	private EmpresaService empresaService;
